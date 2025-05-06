@@ -1,0 +1,79 @@
+:root {
+
+    /* fonts */
+    --font-base: 'Inter', sans-serif;
+    --font-size-base: 1rem;
+
+    --h1-size: calc(var(--font-size-base) * 2.25);
+    --h2-size: calc(var(--font-size-base) * 1.75);
+    --h3-size: calc(var(--font-size-base) * 1.5);
+    --h4-size: calc(var(--font-size-base) * 1.25);
+    --h5-size: calc(var(--font-size-base) * 1);
+  
+
+
+    /* colors */
+    --bg-light: #ffffff;
+    --bg-med: #F9F9FA;
+    --bg-strong: #E8EAF1;
+
+    /* spacing */
+
+    --base-spacing: 1;
+
+    --s1: 1px;
+    --s2: calc(var(--base-spacing) * 2);
+    --s4: calc(var(--base-spacing) * 4);
+    --s6: calc(var(--base-spacing) * 6);
+    --s8: calc(var(--base-spacing) * 8);
+    --s10: calc(var(--base-spacing) * 10);
+    --s12: calc(var(--base-spacing) * 12);
+    --s16: calc(var(--base-spacing) * 16);
+    --s20: calc(var(--base-spacing) * 20);
+    --s24: calc(var(--base-spacing) * 24);
+    --s32: calc(var(--base-spacing) * 32);
+    --s40: calc(var(--base-spacing) * 40);
+    --s48: calc(var(--base-spacing) * 48);
+    --s64: calc(var(--base-spacing) * 64);
+    --s80: calc(var(--base-spacing) * 80);
+    --s100: calc(var(--base-spacing) * 100);
+    --s120: calc(var(--base-spacing) * 120);
+
+
+    h1, h2, h3, h4, h5 {
+        font-family: var(--base-spacing);
+        font-weight: bold;
+
+    };
+
+    h1{
+        font-size: var(--h1-size);
+        line-height: calc(var(--h1-size) + 8);
+        font-family: var(--font-base);
+    }
+
+    h2{
+        font-size: var(--h2-size);
+        line-height: calc(var(--h2-size) + 8);
+        font-family: var(--font-base);
+    }
+
+    h3{
+        font-size: var(--h3-size);
+        line-height: calc(var(--h3-size) + 8);
+        font-family: var(--font-base);
+    }
+
+    h4{
+        font-size: var(--h4-size);
+        line-height: calc(var(--h4-size) + 8);
+        font-family: var(--font-base);
+    }
+
+    h5{
+        font-size: var(--h5-size);
+        line-height: calc(var(--h5-size) + 8);
+        font-family: var(--font-base);
+    }
+
+}
