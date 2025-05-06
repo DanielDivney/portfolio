@@ -11,7 +11,7 @@
     <div class="grid">
 <div class="left">
     <div class="leftContainer">
-        <img src="/Users/danieldivney/Desktop/MyPortfolio/images/ClickFunnels-Logo (1) 1.png"  width="160px" class="image">
+        <img src="public/images/ClickFunnels-Logo (1) 1.png"  width="160px" class="image">
     <h3 class="white">Data Import Feature For a Martech SaaS Application</h3>
     <p class="tl">Increased stick rate by 3% with end to end design, from problem to high fidelity solution using proven design thinking methodologies.</p>
     <div class="progress"></div>
