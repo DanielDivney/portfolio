@@ -1,7 +1,7 @@
 :root {
 
     /* fonts */
-    --font-base: 'Inter', sans-serif;
+    --font-base: 'Roboto', sans-serif;
     --font-size-base: 1rem;
 
     --h1-size: calc(var(--font-size-base) * 2.25);
@@ -66,14 +66,14 @@
 
     h2{
         font-size: var(--h2-size);
-        line-height: calc(var(--h2-size) + 8);
+        line-height: 40px;
         font-family: var(--font-base);
         color: var(--text-strong);
     }
 
     h3{
         font-size: var(--h3-size);
-        line-height: calc(var(--h3-size) + 8);
+        line-height: 32px;
         font-family: var(--font-base);
         color: var(--text-strong);
         padding: 0;
@@ -81,7 +81,7 @@
 
     h4{
         font-size: var(--h4-size);
-        line-height: calc(var(--h4-size) + 8);
+        line-height: 28px;
         font-family: var(--font-base);
         color: var(--text-strong);
     }
@@ -112,4 +112,8 @@
         font-family: var(--font-base);
         font-size: var(--txt-lg-size);
         line-height: 24px;
+    }
+
+    body{
+        background-color: var(--bg-med);
     }
