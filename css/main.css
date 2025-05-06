@@ -9,13 +9,20 @@
     --h3-size: calc(var(--font-size-base) * 1.5);
     --h4-size: calc(var(--font-size-base) * 1.25);
     --h5-size: calc(var(--font-size-base) * 1);
-  
+
+    --txt-sm-size: calc(var(--font-size-base) * 0.75);
+    --txt-md-size: calc(var(--font-size-base) * 0.875);
+    --txt-lg-size: calc(var(--font-size-base) * 1);
 
 
     /* colors */
     --bg-light: #ffffff;
     --bg-med: #F9F9FA;
     --bg-strong: #E8EAF1;
+
+    --text-light:#626d91;
+    --text-med: #2F3751 ;
+    --text-strong: #21242D;
 
     /* spacing */
 
@@ -39,41 +46,70 @@
     --s100: calc(var(--base-spacing) * 100);
     --s120: calc(var(--base-spacing) * 120);
 
+}
+
 
     h1, h2, h3, h4, h5 {
         font-family: var(--base-spacing);
         font-weight: bold;
+        padding: 0px;
+        margin: 0px;
 
-    };
+    }
 
     h1{
         font-size: var(--h1-size);
         line-height: calc(var(--h1-size) + 8);
         font-family: var(--font-base);
+        color: var(--text-strong);
     }
 
     h2{
         font-size: var(--h2-size);
         line-height: calc(var(--h2-size) + 8);
         font-family: var(--font-base);
+        color: var(--text-strong);
     }
 
     h3{
         font-size: var(--h3-size);
         line-height: calc(var(--h3-size) + 8);
         font-family: var(--font-base);
+        color: var(--text-strong);
+        padding: 0;
     }
 
     h4{
         font-size: var(--h4-size);
         line-height: calc(var(--h4-size) + 8);
         font-family: var(--font-base);
+        color: var(--text-strong);
     }
 
     h5{
         font-size: var(--h5-size);
         line-height: calc(var(--h5-size) + 8);
         font-family: var(--font-base);
+        color: var(--text-strong);
     }
 
-}
+    p{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .ts { 
+        font-family: var(--font-base);
+        font-size: var(--txt-sm-size);
+        line-height: 16px;
+    }
+    .tm { 
+        font-family: var(--font-base);
+        font-size: var(--txt-md-size);
+        line-height: 20px;
+    }
+    .tl { 
+        font-family: var(--font-base);
+        font-size: var(--txt-lg-size);
+        line-height: 24px;
+    }
